@@ -1,9 +1,10 @@
 using System;
 
 public class Contador
-{   int valor=0;
+{   int valor;
     public int Incrementar()
-    {
-        return this.valor++;
+    {   
+        this.valor=1;
+        return this.valor;
     }
 }
