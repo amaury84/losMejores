@@ -11,4 +11,9 @@ public class Contador
         this.valor=1;
         return this.valor;
     }
+    public int Decrementar()
+    {
+        this.valor = -1;
+        return this.valor;
+    }
 }
