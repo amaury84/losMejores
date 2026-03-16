@@ -1,6 +1,6 @@
 using System;
 
-class Contador
+public class Contador
 {   int valor=0;
     public int Incrementar()
     {
