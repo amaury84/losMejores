@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace losMejores
-{
-    internal class Contador
-    {
+public class Contador
+{   int valor;
+    public int Incrementar()
+    {   
+        this.valor=1;
+        return this.valor;
     }
 }
