@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace losMejores
-{
-    public class EmpleadoPorHoras : Empleado
+ public class EmpleadoPorHoras : Empleado
     {
         private int horas;
         private double valorHora;
@@ -14,4 +12,4 @@ namespace losMejores
         { this.horas = horas; this.valorHora = valorHora; }
         public override double CalcularSalario() => horas * valorHora;
     }
-}
+

@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace losMejores
-{
-    public abstract class Figura
+public abstract class Figura
     {
         public abstract double CalcularArea();
     }
-}
+

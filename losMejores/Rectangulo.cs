@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace losMejores
-{
-    public class Rectangulo : Figura
+ public class Rectangulo : Figura
     {
         private double @base, altura;
         public Rectangulo(double @base, double altura) { this.@base = @base; this.altura = altura; }
         public override double CalcularArea() => @base * altura;
     }
-}
+
