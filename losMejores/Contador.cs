@@ -5,15 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 public class Contador
-{   int valor;
-    public int Incrementar()
-    {   
-        this.valor=1;
-        return this.valor;
-    }
-    public int Decrementar()
-    {
-        this.valor = -1;
-        return this.valor;
-    }
+{
+    private int valor = 0;
+    public int Incrementar() { valor++; return valor; }
+    public int Decrementar() { valor--; return valor; }
 }
