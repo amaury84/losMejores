@@ -8,6 +8,6 @@ using System.Threading.Tasks;
     {
         private double radio;
         public Circulo(double radio) { this.radio = radio; }
-        public override double CalcularArea() => Math.PI * radio * radio;
+        public override double CalcularArea() => Math.PI * radio;
     }
 
