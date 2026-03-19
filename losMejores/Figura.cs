@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 public abstract class Figura
     {
-        public abstract double CalcularArea();
+        public abstract double Calcularrea();
     }
 
